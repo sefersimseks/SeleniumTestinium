@@ -1,0 +1,16 @@
+@all @seleniumAutomation
+Feature: Selenium Beymen Automation Test
+
+  @seleniumAutomation1
+  Scenario:1 Add Quick Domain
+    Given OPEN BROWSER
+    When USER ENTERS FIRST TEXT IN SEARCH BOX
+    When USER DELETE TEXT IN SEARCH BOX
+    When USER ENTERS SECOND TEXT IN SEARCH BOX
+    When USER SELECT THIRD ITEM
+    Then USER GET ITEM INFORMATION
+    When USER ADD ITEM TO CART
+    When USER GOES CART
+    When USER INCREASE THE NUMBER OF ITEM
+    Then USER CHECK PRICE OF DOUBLE ITEM
+    When USER DELETE ITEM IN THE CART
